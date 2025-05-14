@@ -23,7 +23,7 @@
         "favoredReligion": "Christianity",
 		"uniqueName": "Profits Profits Profits",
 		"uniques": ["[+20]% Unhappiness from [Population] [in all cities]", "[-75]% Gold cost of acquiring tiles [in all cities]",
-		 "Starts with [Commerce] adopted", "[+2 Gold] from every [Strategic resource]", "Double quantity of [Oil] produced", "Double quantity of [Coal] produced"],
+			    "Starts with [Commerce] adopted", "[+2 Gold] from every [Strategic resource]", "Double quantity of [Coal] produced"],
 		"cities": ["Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
 			"Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis",
 			"Cleveland","Kansas City","San Diego","Richmond","Las Vegas","Phoenix","Albuquerque","Minneapolis","Pittsburgh",
