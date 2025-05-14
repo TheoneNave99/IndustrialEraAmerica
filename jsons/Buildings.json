@@ -4,15 +4,17 @@
 		"uniqueTo": "IEAmerica",
 		"cost": 80,
 		"production": 2,
+		"percentStatBonus": {"production": 5},
 		"maintenance": 1,
 		"uniques": ["Provides [5] [Iron]","Limited to [5] per Civilization"],
 		"requiredTech": "Metal Casting"
 	},
-		{
+	{
 		"name": "Steel Foundry",
 		"uniqueTo": "IEAmerica",
 		"cost": 120,
 		"production": 4,
+		"percentStatBonus": {"production": 10},
 		"maintenance": 2,
 		"uniques": ["Provides [10] [Iron]","Limited to [5] per Civilization"],
 		"requiredTech": "Industrialization"
