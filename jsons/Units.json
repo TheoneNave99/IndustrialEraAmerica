@@ -2,11 +2,10 @@
 	{
 		"name": "Laborer",
 		"unitType": "Civilian",
-		"replaces": "Worker",
 		"uniqueTo": "IEAmerica",
-		"movement": 3,
-		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
-		"cost": 15
+		"movement": 4,
+		"uniques": ["Can build [Land] improvements on tiles", "Can speed up construction of a building"],
+		"cost": 300
 	},
 	{
 		"name": "Capitalist",
@@ -15,8 +14,7 @@
 		"movement": 4,
 		"cost": 800,
 		"uniques": ["Can instantly construct a [Manufactory] improvement <by consuming this unit>", "Can instantly construct a [Customs house] improvement <by consuming this unit>",
-			    "Can instantly construct a [Academy] improvement <by consuming this unit>", "Can undertake a trade mission with City-State, giving a large sum of gold and [45] Influence",
-			    "Can speed up construction of a building"],
+			    "Can instantly construct a [Academy] improvement <by consuming this unit>", "Can undertake a trade mission with City-State, giving a large sum of gold and [45] Influence"],
 		"requiredTech": "Economics",
 	},
 	{
@@ -28,6 +26,7 @@
 		"strength": 28,
 		"cost": 125,
 		"requiredTech": "Rifling",
+		"uniques": ["Can build [Land] improvements on tiles"]
 		"promotions": ["March"],
 		"attackSound": "shot"
 	},
