@@ -5,7 +5,7 @@
 		"cost": 80,
 		"production": 2,
 		"maintenance": 1,
-		"uniques": ["[+5 Iron] [in this city]"],
+		"uniques": ["Provides [5] [Iron]","Limited to [5] per Civilization"],
 		"requiredTech": "Metal Casting"
 	},
 		{
@@ -14,7 +14,7 @@
 		"cost": 120,
 		"production": 4,
 		"maintenance": 2,
-		"uniques": ["[+10 Iron] [in this city]"],
+		"uniques": ["Provides [10] [Iron]","Limited to [5] per Civilization"],
 		"requiredTech": "Industrialization"
 	},
 	{
@@ -34,5 +34,15 @@
 		"maintenance": 4,
 		"uniques": ["[-30]% Unhappiness from [Population] [in this city]", "Consumes [6] [Iron]", "[20]% Food is carried over after population increases [in this city]"],
 		"requiredTech": "Industrialization"
+	},
+		{
+		"name": "Standard Oil Pump",
+		"uniqueTo": "IEAmerica",
+		"cost": 120,
+		"production": 2,
+		"gold": 2,
+		"maintenance": 0,
+		"uniques": ["Provides [5] [Oil]","Limited to [5] per Civilization"],
+		"requiredTech": "Biology"
 	},
 ]
