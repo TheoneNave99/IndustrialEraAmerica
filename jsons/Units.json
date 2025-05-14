@@ -1,17 +1,13 @@
 [
-	{
-		"name": "Phasers",
-		"unitType": "Ranged",
-		"uniqueTo": "Aliens",
-		"replaces": "Machine Gun",
-		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 36,
-		"range": 2,
-		"cost": 500,
-		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
-		"promotions": ["Logistics","Accuracy I"],
-		"attackSound": "phasers"
-	}
+{
+		"name": "Capitalist",
+		"unitType": "Civilian",
+		"uniqueTo": "IEAmerica",
+		"movement": 4,
+		"cost": 800,
+		"uniques": ["Can instantly construct a [Manufactory] improvement <by consuming this unit>", "Can instantly construct a [Customs house] improvement <by consuming this unit>",
+			    "Can instantly construct a [Academy] improvement <by consuming this unit>", "Can undertake a trade mission with City-State, giving a large sum of gold and [45] Influence",
+			    "Can speed up construction of a building", ],
+		"requiredTech": "Economics",
+	},
 ]
